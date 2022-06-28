@@ -1,0 +1,1161 @@
+@media (max-width: 1600px) {
+
+    /* header */
+    .header {
+        background-size: 1440px auto;
+    }
+
+    .header-description {
+        font-size: 40px;
+        line-height: 60px;
+        max-width: 525px;
+    }
+
+    .set-pic {
+        max-width: 750px;
+    }
+
+    .header-description__text {
+        max-width: 600px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .desk-general {
+        max-width: 875px;
+    }
+
+    .paw-l {
+        left: 0;
+    }
+
+    .paw-block {
+        background-size: 1440px auto;
+    }
+
+    .paw-block-text img {
+        max-width: 340px;
+    }
+
+    /* bull-terrier */
+
+    /* team */
+    .team__card img {
+        max-width: 280px;
+    }
+
+    .team__list:last-child .team__card {
+        margin-right: 50px !important;
+    }
+
+    .team__list:last-child .team__card:last-child {
+        margin-right: 0 !important;
+    }
+
+    /* team */
+
+    /* map */
+    .pam__plate {
+        width: 400px;
+    }
+
+    .map-frpoup {
+        max-width: 885px;
+        right: 0;
+        bottom: -8px;
+    }
+
+    /* map */
+}
+
+@media (max-width: 1440px) {
+
+    /* header */
+    .header {
+        background-size: 1200px auto;
+    }
+
+    .header-description {
+        font-size: 37px;
+        line-height: 50px;
+        max-width: 465px;
+        margin-top: 145px;
+        margin-top: 30px;
+        margin-bottom: 26px;
+    }
+
+    .header-description__text {
+        max-width: 510px;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+
+    .link-social {
+        padding: 15px 15px 15px 0;
+        max-width: 250px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .link-social::before {
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+    }
+
+    .header-timer {
+        margin-bottom: 37px;
+    }
+
+    .title-block {
+        margin-top: 40px;
+    }
+
+    .header-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .set-pic {
+        max-width: 635px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-l {
+        width: 180px;
+    }
+
+    .paw-r {
+        width: 180px;
+    }
+
+    .desk-general {
+        max-width: 796px;
+        padding: 75px 0;
+    }
+
+    .desk-general-text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .paw-block {
+        background-size: 1200px auto;
+    }
+
+    .paw-block-text img {
+        max-width: 300px;
+    }
+
+    .paw-text {
+        font-size: 23px;
+        line-height: 125%;
+        max-width: 790px;
+    }
+
+    /* bull-terrier */
+
+    /* bonus */
+    .bonus__item img {
+        max-width: 270px;
+    }
+
+    .bonus__item--description {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .bonus__step {
+        transform: translateY(-30px);
+        max-width: 70px;
+    }
+
+    /* bonus */
+    /* team */
+    .team__list {
+        justify-content: space-between !important;
+    }
+
+    .team__card img {
+        max-width: 220px;
+    }
+
+    .team__list:last-child .team__card {
+        margin-right: 0px !important;
+    }
+
+    .team__card--description {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .team__card--description span {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* team */
+
+    /* economy */
+    .economy__diagram--text-1 {
+        top: 35px;
+        left: 0%;
+    }
+
+    .economy__diagram--text-2 {
+        top: 35px;
+        right: 0%;
+    }
+
+    .economy__diagram--text-3 {
+        left: 0%;
+        bottom: 70px;
+    }
+
+    .economy__diagram--text-4 {
+        right: 9%;
+        bottom: 20px;
+        max-width: 180px;
+        text-align: center;
+    }
+
+    /* economy */
+    /* map */
+    .pam__plate {
+        width: 310px;
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    .map-frpoup {
+        right: 0;
+        bottom: -8px;
+        max-width: 775px;
+    }
+
+    .map__element ul li {
+        font-size: 19px;
+        line-height: 24px;
+        max-width: 280px;
+    }
+
+    .map__element-1 li::before {
+        transform: translate(-50%, 50%);
+    }
+
+    .map__element-1 li:first-child::before {
+        transform: translate(-50%, 100%);
+    }
+
+    .map__element-1 li:nth-child(2)::before {
+        transform: translate(-50%, 75%);
+    }
+
+    .map__element-1 li:nth-child(7)::before {
+        transform: translate(-50%, 76%);
+    }
+
+    .map__element-2 li:first-child {
+        margin-bottom: 120px;
+    }
+
+    .map__element-2 li::before {
+        transform: translate(-50%, 115%);
+    }
+
+    .map__element-2 li:nth-child(2)::before {
+        transform: translate(-50%, 65%);
+    }
+
+    .map__element-3 li:first-child {
+        margin-bottom: 120px;
+    }
+
+    .map__element-3 li:nth-child(3) {
+        margin-bottom: 135px;
+    }
+
+    .map__element-3 li::before {
+        transform: translate(-50%, 120%);
+    }
+
+    .map__element-3 li:nth-child(2)::before {
+        transform: translate(-50%, 75%);
+    }
+
+    /* map */
+}
+
+@media (max-width: 1200px) {
+
+    /* header */
+    .bull-terrier {
+        margin: 100px 0;
+    }
+
+    .header {
+        background-size: 991px auto;
+    }
+
+    .title-block {
+        margin-top: 30px;
+    }
+
+    .title-block img {
+        max-width: 50px;
+    }
+
+    .header-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .header-description {
+        font-size: 30px;
+        line-height: 35px;
+        max-width: 340px;
+        margin-top: 20px;
+    }
+
+    .header-description__text {
+        max-width: 435px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-timer {
+        margin-bottom: 15px;
+    }
+
+    .timer-number {
+        font-size: 40px;
+        line-height: 46px;
+        height: 55px;
+        width: 85px;
+    }
+
+    .link-social {
+        padding: 15px 10px 15px 0;
+        font-size: 14px;
+    }
+
+    .link-social::before {
+        left: 5px;
+    }
+
+    .set-pic {
+        max-width: 500px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-l {
+        width: 160px;
+    }
+
+    .paw-r {
+        width: 160px;
+    }
+
+    .desk-general {
+        max-width: 650px;
+        padding: 60px 0;
+    }
+
+    .desk-general-text {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .paw-block {
+        background-size: 991px auto;
+        margin-top: 60px;
+    }
+
+    .paw-block-text img {
+        max-width: 280px;
+    }
+
+    .paw-text {
+        font-size: 20px;
+        max-width: 650px;
+    }
+
+    /* bull-terrier */
+
+    /* team */
+    .team__card img {
+        max-width: 180px;
+    }
+
+    /* team */
+
+    /* economy */
+    .economy__title {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .economy__diagram img {
+        max-width: 400px;
+    }
+
+    .economy__diagram--text-1 {
+        top: 35px;
+        left: 12%;
+    }
+
+    .economy__diagram--text-2 {
+        top: 35px;
+        right: 12%;
+    }
+
+    .economy__diagram--text-3 {
+        left: 13%;
+        bottom: 35px;
+    }
+
+    .economy__diagram--text-4 {
+        right: 10%;
+        bottom: 35px;
+        max-width: 100%;
+    }
+
+    .economy__diagram--text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* economy */
+
+    /* map */
+    .map-frpoup {
+        right: 0;
+        bottom: 0px;
+        max-width: 690px;
+    }
+
+    /* map */
+
+}
+
+@media (max-width: 991px) {
+
+    /* header */
+    .header-block {
+        padding-bottom: 45px;
+    }
+
+    .header {
+        background-size: 767px auto;
+        margin-bottom: 45px;
+    }
+
+    .header-description {
+        font-size: 27px;
+        line-height: 35px;
+        max-width: 336px;
+        margin-top: 145px;
+    }
+
+    .set-pic {
+        max-width: 380px;
+    }
+
+    .select__header {
+        border-radius: 10px;
+        width: 77px;
+        margin: 0 0 7px;
+    }
+
+    .select__current {
+        padding: 6px 0;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0 4px;
+    }
+
+    .sphere {
+        width: 12px;
+    }
+
+    .traingle {
+        width: 11px;
+    }
+
+    .select__body {
+        transform: translateX(10px);
+    }
+
+    .select__item {
+        margin: 0 auto 5px;
+        padding: 2px 0;
+        width: 60px;
+        font-size: 14px;
+        line-height: 15px;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 0px 4px 4px rgb(255 255 255 / 15%), inset 0px 0px 60px rgb(255 255 255 / 5%);
+        backdrop-filter: blur(60px);
+        border-radius: 10px;
+    }
+
+    .title-block {
+        margin-top: 15px;
+    }
+
+    .header-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .title-block img {
+        max-width: 33px;
+    }
+
+    .header-description {
+        font-size: 22px;
+        line-height: 30px;
+        max-width: 250px;
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+
+    .header-description__text {
+        max-width: 360px;
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 25px;
+    }
+
+    .timer-number {
+        font-size: 35px;
+        line-height: 49px;
+        height: 50px;
+        width: 75px;
+    }
+
+    .timer-element__text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .timer-text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .link-social {
+        padding: 17px 13px 17px 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .link-social::before {
+        width: 36px;
+        height: 36px;
+        background-size: 36px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .bull-terrier {
+        margin: 80px 0;
+    }
+
+    .paw-l {
+        width: 140px;
+    }
+
+    .paw-r {
+        width: 135px;
+    }
+
+    .desk-general {
+        max-width: 464px;
+        padding: 50px 0;
+    }
+
+    .desk-general-text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .paw-block {
+        margin-top: 40px;
+        background-size: 767px auto;
+    }
+
+    .paw-block-text img {
+        max-width: 200px;
+    }
+
+    .paw-text {
+        font-size: 16px;
+        max-width: 475px;
+    }
+
+    /* bull-terrier */
+
+    /* bonus */
+    .bonus__item img {
+        max-width: 180px;
+    }
+
+    .bonus__title {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .bonus__subtitle {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .bonus {
+        margin-bottom: 110px;
+    }
+
+    /* bonus */
+
+    /* team */
+    .team__card img {
+        max-width: 125px;
+    }
+
+    .team__card--description {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .team__card--description span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .team__card {
+        padding: 15px 15px 12px;
+    }
+
+    /* team */
+
+    /* economy */
+
+    .economy__diagram--text-1 {
+        top: 35px;
+        left: 0%;
+    }
+
+    .economy__diagram--text-3 {
+        left: 1%;
+        bottom: 35px;
+    }
+
+    .economy__diagram--text-2 {
+        top: 35px;
+        right: 0%;
+    }
+
+    .economy__diagram--text-4 {
+        right: 4%;
+        bottom: 10px;
+        max-width: 105px;
+    }
+
+    /* economy */
+    /* map */
+    .pam__plate {
+        width: 210px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 40px 0;
+    }
+
+    .map__element ul li {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 210px;
+    }
+
+    .map__element-1 li:first-child::before {
+        transform: translate(-50%, 80%);
+    }
+
+    .map__element-1 li:nth-child(2)::before {
+        transform: translate(-50%, 65%);
+    }
+
+    .map__element-1 li:nth-child(7)::before {
+        transform: translate(-50%, 55%);
+    }
+
+    .map__element-2 li:first-child {
+        margin-bottom: 112px;
+    }
+
+    .map__element-2 li:nth-child(2) {
+        margin-bottom: 99px;
+    }
+
+    .map__element-2 li::before {
+        transform: translate(-50%, 90%);
+    }
+
+    .map__element-2 li:nth-child(2)::before {
+        transform: translate(-50%, 70%);
+    }
+
+    .map__element-3 li:first-child {
+        margin-bottom: 112px;
+    }
+
+    .map__element-3 li::before {
+        transform: translate(-50%, 90%);
+    }
+
+    .map__element-3 li:nth-child(2)::before {
+        transform: translate(-50%, 70%);
+    }
+
+    .map__element-3 li:nth-child(3) {
+        margin-bottom: 60px;
+    }
+
+    .map__element-3 li:nth-child(3)::before {
+        transform: translate(-50%, 35%);
+    }
+
+    .map__title {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .map {
+        margin-bottom: 140px;
+    }
+
+    /* map */
+
+}
+
+@media (max-width: 767px) {
+
+    /* header */
+    .header {
+        background-size: 100%;
+    }
+
+    /* .header-description {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 340px;
+        margin-top: 100px;
+    } */
+
+    /* .set-pic {
+        max-width: 293px;
+    } */
+
+    /* header */
+
+    /* auto-scroll */
+    .slider__item {
+        padding: 7px 3px;
+    }
+
+    /* auto-scroll */
+
+    /* bull-terrier */
+
+    .paw-l {
+        width: 130px;
+    }
+
+    .desk-general {
+        max-width: 300px;
+        padding: 34px 0;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 1px 0px 0px 1px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(255 255 255 / 15%),
+            inset 0px 0px 60px rgb(255 255 255 / 5%);
+        backdrop-filter: blur(60px);
+    }
+
+    .desk-general-text {
+        max-width: 280px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .paw-block {
+        background-size: 100%;
+    }
+
+    .paw-block-text img {
+        max-width: 180px;
+    }
+
+    .paw-text {
+        font-size: 13px;
+        max-width: 350px;
+    }
+
+    /* bull-terrier */
+    /* buy */
+    .buy {
+        margin-bottom: 80px;
+    }
+
+    .buy__main {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .btn-buy {
+        position: relative;
+        font-size: 20px;
+        line-height: 27px;
+        padding: 14px 0;
+        width: 280px;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(60px);
+        border-radius: 10px;
+    }
+
+    .btn-buy::before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+        width: 38px;
+        height: 33px;
+        background-size: 38px 33px;
+        left: 9px;
+        background-image: url(../img/4-buy/step-left.png);
+    }
+
+    .btn-buy::after {
+        position: absolute;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+        width: 38px;
+        height: 33px;
+        background-size: 38px 33px;
+        right: 9px;
+        background-image: url(../img/4-buy/step-right.png);
+    }
+
+    .buy-btn {
+        margin-top: 25px;
+    }
+
+    /* buy */
+    /* bonus */
+    .bonus__title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .bonus__subtitle {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
+
+    .bonus {
+        margin-bottom: 80px;
+    }
+
+    .bonus__item--description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .bonus__item img {
+        max-width: 240px;
+    }
+
+    /* bonus */
+
+    /* team */
+    .team {
+        margin-bottom: 90px;
+    }
+
+    .team__list {
+        justify-content: center !important;
+    }
+
+    .team__list:first-child {
+        margin-bottom: 0 !important;
+    }
+
+    .team__card {
+        margin: 0 15px 30px !important;
+    }
+
+    .team__card img {
+        max-width: 160px;
+    }
+
+    .team__card--description {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .team__card--description span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .team__list:last-child .team__card {
+        margin-right: 15px !important;
+    }
+
+    .team__list:last-child .team__card:last-child {
+        margin-right: 15px !important;
+    }
+
+    /* team */
+
+    /* economy */
+    .economy__title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .economy {
+        margin-bottom: 80px;
+        background-image: none;
+    }
+
+    .economy__diagram img {
+        max-width: 255px;
+    }
+
+    .economy__diagram--text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .economy .container {
+        max-width: 575px;
+    }
+
+    .economy__diagram--text-1 {
+        top: 10px;
+        left: 2%;
+    }
+
+    .economy__diagram--text-2 {
+        top: 10px;
+        right: 6%;
+    }
+
+    .economy__diagram--text-3 {
+        left: 3%;
+        bottom: 30px;
+    }
+
+    .economy__diagram--text-4 {
+        right: 6%;
+        bottom: 10px;
+        max-width: 105px;
+    }
+
+    /* economy */
+
+    /* map */
+    .map {
+        margin-bottom: 80px;
+    }
+
+    .map .container {
+        max-width: 575px;
+    }
+
+    .pam__plate {
+        width: 280px;
+        font-size: 20px;
+        line-height: 27px;
+        padding: 35px 0;
+        margin: 0 auto 30px;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    }
+
+    .map__element ul li {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 280px;
+        margin-bottom: 90px !important;
+    }
+
+    .map__element ul li:last-child {
+        margin-bottom: 35px !important;
+    }
+
+    .map__element img {
+        margin-bottom: 35px;
+    }
+
+    .map__element-2 li::before {
+        transform: translate(-50%, 65%);
+    }
+
+    .map__element-3 li::before {
+        transform: translate(-50%, 70%);
+    }
+
+    .map__element-3 li:nth-child(3)::before {
+        transform: translate(-50%, 90%);
+    }
+
+    .map__title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    /* map */
+
+
+}
+
+@media (max-width: 575px) {
+
+    /* header */
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .header-block {
+        padding-bottom: 0;
+    }
+
+    .header-information {
+        align-items: center;
+        text-align: center;
+    }
+
+    .link-social {
+        width: 280px;
+        max-width: 280px;
+        padding: 17px 17px 17px 0;
+    }
+
+    .header-description {
+        margin-top: 25px;
+    }
+
+    .link-social::before {
+        left: 15px;
+    }
+
+    .header-description__text {
+        margin-top: 27px;
+        font-size: 14px;
+    }
+
+    .select-container {
+        margin-top: 22px;
+    }
+
+    .title-block {
+        margin-top: 40px;
+    }
+
+    .header-information {
+        position: relative;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-block {
+        margin-top: 15px;
+    }
+
+    .bull-terrier .container {
+        padding: 0;
+    }
+
+    .desk-general {
+        margin: 0 10px;
+        max-width: 390px;
+    }
+
+    .paw-text {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 130%;
+        padding: 0 20px;
+    }
+
+    /* bull-terrier */
+
+    /* economy */
+    .economy {
+        margin-bottom: 95px;
+    }
+
+    .economy__diagram--text {
+        font-size: 13px;
+    }
+
+    .economy .container {
+        max-width: 425px;
+    }
+
+    .economy__diagram--text-1 {
+        top: -25px;
+        left: 0%;
+    }
+
+    .economy__diagram--text-4 {
+        left: auto;
+        right: 0;
+        top: -25px;
+        bottom: auto;
+        max-width: 100%;
+    }
+
+    .economy__diagram--text-3 {
+        left: 0;
+        top: auto;
+        bottom: -20px;
+    }
+
+    .economy__diagram--text-2 {
+        top: auto;
+        bottom: -40px;
+        right: 0%;
+        text-align: end;
+    }
+
+    /* economy */
+
+}
+
+@media (max-width: 375px) {
+
+    /* header */
+    .header {
+        background-image: url(../img/1-header/h-fon-mob.png);
+        background-size: 100%;
+        background-position-y: 60px;
+        background-repeat: no-repeat;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-block {
+        background-image: url(../img/3-bull-terrier/bull-terrier-fon-mob.png);
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    /* bull-terrier */
+}

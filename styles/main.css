@@ -1,0 +1,652 @@
+/* base */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 130%;
+    font-family: "Uni Neue";
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #1c1c1c;
+}
+
+a,
+a:hover {
+    cursor: pointer !important;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: "Uni Neue Book";
+    font-weight: normal;
+    font-style: normal;
+    border: none;
+    outline: none;
+    cursor: pointer !important;
+}
+
+input:hover,
+button:hover {
+    cursor: pointer !important;
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 0 5px;
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 991px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 767px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+/* base */
+
+/* header */
+.select.is-active .select__body {
+    display: none;
+}
+
+.select__header {
+    display: flex;
+    cursor: pointer;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    width: 150px;
+    margin: 0 0 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.select__current {
+    padding: 12px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0 4px;
+    font-family: "Uni Neue Book";
+}
+
+.select__body {
+    position: absolute;
+    left: 0;
+    transform: translateX(5px);
+    display: block;
+}
+
+.select__item {
+    text-align: center;
+    margin: 0 auto 7px;
+    padding: 7px 0;
+    width: 145px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    font-family: "Uni Neue Book";
+}
+
+.select__item:last-child {
+    margin-bottom: 0;
+}
+
+.select__item:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.title-block {
+    margin-top: 60px;
+}
+
+.header-title {
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 88px;
+    text-shadow: 0px 0px 3.5px #FFFFFF;
+}
+
+.header {
+    background-image: url(../img/1-header/h-fon.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    /* margin-bottom: 70px; */
+}
+
+.header-block {
+    padding-bottom: 100px;
+}
+
+.header-description {
+    font-family: "Uni Neue Book";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 81px;
+    color: #ffffff;
+    max-width: 710px;
+    margin-top: 42px;
+    margin-bottom: 26px;
+}
+
+.header-description__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 750px;
+    margin-bottom: 43px;
+    font-family: 'Uni Neue Book';
+}
+
+.header-timer {
+    margin-bottom: 42px;
+}
+
+.timer-number {
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(60px);
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 81px;
+    height: 80px;
+    width: 115px;
+}
+
+.timer-text {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Uni Neue Book';
+}
+
+.timer-element__text {
+    font-family: 'Uni Neue Book';
+}
+
+.link-social {
+    padding: 24px 24px 24px 0;
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: 'Uni Neue';
+    cursor: pointer;
+}
+
+.link-social::before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+}
+
+.link-social-telegram::before {
+    background-image: url(../img/1-header/telegram.svg);
+}
+
+.link-social-play::before {
+    background-image: url(../img/1-header/play.svg);
+}
+
+/* header */
+
+/* auto-scroll */
+.slider {
+    overflow: hidden;
+}
+
+.swiper-slide {
+    width: auto;
+    margin-right: 10px !important;
+}
+
+.slider__item {
+    padding: 20px 10px;
+    text-align: center;
+    background: #262A35;
+    border-radius: 10px;
+    max-width: 225px !important;
+    min-width: 70px !important;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+/* auto-scroll */
+
+/* bull-terrier */
+/* .desk-general .desk-general-text  .paw-l  paw-r*/
+
+.bull-terrier {
+    margin: 175px 0 160px;
+}
+
+.paw-block {
+    background-image: url(../img/3-bull-terrier/bull-terrier-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 90px;
+}
+
+.paw-text {
+    font-family: "Uni Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #ffffff;
+    max-width: 1055px;
+}
+
+/* bull-terrier */
+
+/* buy */
+.buy {
+    margin-bottom: 165px;
+}
+
+.btn-buy {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    padding: 18px 0;
+    width: 100%;
+    width: 310px;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 4px 0px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.buy-btn {
+    margin-top: 85px;
+}
+
+/* buy */
+
+/* bonus */
+.bonus {
+    margin-bottom: 165px;
+}
+
+.bonus__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.bonus__subtitle {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 95px;
+    text-align: center;
+}
+
+.bonus__item img {
+    max-width: 400px;
+}
+
+.bonus__item--description {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.bonus__step {
+    transform: translateY(-45px);
+}
+
+/* bonus */
+
+/* map */
+.map {
+    margin-bottom: 210px;
+}
+
+.map__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+}
+
+.pam__plate {
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    width: 478px;
+    padding: 68px 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.map__element ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    max-width: 400px;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.map__element ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.map__element-1 li:first-child {
+    margin-bottom: 97px;
+}
+
+.map__element-1 li:nth-child(2) {
+    margin-bottom: 95px;
+}
+
+.map__element-1 li::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 66px;
+    height: 59px;
+    background-image: url(../img/8-map/m-step.png);
+    background-size: 66px 59px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 65%);
+}
+
+.map__element-1 li:first-child::before {
+    transform: translate(-50%, 100%);
+}
+
+.map__element-1 li:nth-child(2)::before {
+    transform: translate(-50%, 95%);
+}
+
+.map__element-1 li:nth-child(7)::before {
+    transform: translate(-50%, 95%);
+}
+
+.map__element-1 li:last-child::before {
+    content: none;
+}
+
+
+.map__element-2 li:first-child {
+    margin-bottom: 135px;
+}
+
+.map__element-2 li:nth-child(2) {
+    margin-bottom: 95px;
+}
+
+.map__element-2 li::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 66px;
+    height: 59px;
+    background-image: url(../img/8-map/m-step.png);
+    background-size: 66px 59px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 125%);
+}
+
+.map__element-2 li:nth-child(2)::before {
+    transform: translate(-50%, 100%);
+}
+
+
+.map__element-2 li:last-child::before {
+    content: none;
+}
+
+.map__element-3 li:first-child {
+    margin-bottom: 135px;
+}
+
+.map__element-3 li:nth-child(2) {
+    margin-bottom: 95px;
+}
+
+.map__element-3 li:nth-child(3) {
+    margin-bottom: 98px;
+}
+
+.map__element-3 li::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 66px;
+    height: 59px;
+    background-image: url(../img/8-map/m-step.png);
+    background-size: 66px 59px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 125%);
+}
+
+.map__element-3 li:last-child::before {
+    content: none;
+}
+
+.map__element-3 li:nth-child(2)::before {
+    transform: translate(-50%, 100%);
+}
+
+.map__element-3 li:nth-child(3)::before {
+    transform: translate(-50%, 170%);
+}
+
+.map-frpoup {
+    right: 0;
+    bottom: -105px;
+}
+
+/* map */
+
+/* team */
+.team {
+    margin-bottom: 160px;
+}
+
+.team__card {
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    padding: 22px 14px 18px;
+}
+
+.team__card--description {
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.team__card--description span {
+    font-family: 'Uni Neue Book';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 46px;
+}
+
+/* team */
+
+/* economy */
+.economy {
+    margin-bottom: 171px;
+    background-image: url(../img/7-economy/e-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.economy__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.economy__diagram--text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.economy__diagram--text-1 {
+    top: 35px;
+    left: 10%;
+}
+
+.economy__diagram--text-2 {
+    top: 35px;
+    right: 10%;
+    text-align: center;
+}
+
+.economy__diagram--text-3 {
+    left: 10%;
+    bottom: 70px;
+}
+
+.economy__diagram--text-4 {
+    right: 6%;
+    bottom: 70px;
+}
+
+/* economy */
