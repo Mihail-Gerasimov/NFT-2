@@ -29,61 +29,85 @@
 </head>
 
 <body>
-    <section class="header">
+    <section class="header pt-3 pt-sm-5">
         <div class="container">
 
-            <div
-                class="header-block d-flex justify-content-center justify-content-sm-between align-items-sm-end align-items-lg-start">
+            <nav class="nav d-flex justify-content-between align-items-center">
+                <div class="select-container">
+                    <div class="select position-relative is-active">
+                        <div class="select__header">
+                            <div class="sphere"><img src="./img/1-header/shpere.svg" alt=""></div>
+                            <span class="select__current">RUS</span>
+                            <div class="traingle"><img src="./img/1-header/triangle.svg" alt=""></div>
+                        </div>
 
-                <div class="header-information me-sm-2 me-lg-0 mt-0 mt-sm-3 mt-md-4 mt-xl-5 d-flex flex-column">
-
-                    <div class="select-container">
-                        <div class="select position-relative is-active">
-                            <div class="select__header">
-                                <div class="sphere"><img src="./img/1-header/shpere.svg" alt=""></div>
-                                <span class="select__current">RUS</span>
-                                <div class="traingle"><img src="./img/1-header/triangle.svg" alt=""></div>
-                            </div>
-
-                            <div class="select__body">
-                                <div class="select__item">ENG</div>
-                                <div class="select__item">RUS</div>
-                            </div>
+                        <div class="select__body">
+                            <div class="select__item">ENG</div>
+                            <div class="select__item">RUS</div>
                         </div>
                     </div>
+                </div>
+
+                <img class="burger d-block d-lg-none" src="./img/1-header/burger.png" alt="">
+
+                <div class="wrapper-list">
+                    <img class="closed d-block d-lg-none" src="./img/1-header/closed.svg" alt="">
+                    <ul class="nav-list">
+                        <li class="list-element"><a href="#friends">О ПРОЕКТЕ</a></li>
+                        <li class="list-element"><a href="#history">ИСТОРИЯ</a></li>
+                        <li class="list-element"><a href="#collection">КОЛЛЕКЦИЯ</a></li>
+                        <li class="list-element"><a href="#economy">ЭКОНОМИКА</a></li>
+                        <li class="list-element"><a href="#bonus">ЦЕННОСТЬ NFT</a></li>
+                        <li class="list-element"><a href="#map">дОРОЖНАЯ КАРТА</a></li>
+                        <li class="list-element"><a href="#team">КОМАНДА</a></li>
+                        <li class="list-element"><a href="#">ПАРТНЁРЫ</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="header-block d-flex justify-content-center justify-content-sm-between align-items-sm-end">
+
+                <!--  me-sm-2 me-lg-0 mt-0 mt-sm-3 mt-md-4 mt-xl-5 -->
+                <div class="header-information d-flex flex-column">
 
                     <div class="title-block d-flex align-items-center">
                         <img src="./img/1-header/diamond.png" alt="">
-                        <h1 class="header-title ms-2 ms-md-4">TON FRIENDS</h1>
+                        <h1 class="header-title ms-2 ms-md-3">TON FRIENDS</h1>
                     </div>
                     <p class="header-description text-center text-sm-start">
-                        ЛИМИТИРОВАННАЯ КОЛЛЕКЦИЯ ИЗ 444 NFT
-                        НА БЛОКЧЕЙНЕ TON
+                        БОЛЬШЕ, ЧЕМ ПРОСТО<br>
+                        NFT И АВАТАР
                     </p>
-                    <img class="d-block d-sm-none" src="./img/1-header/set-pic-mob.png" alt="">
-                    <p class="header-description__text">Приобретая NFT из коллекции TON Friends, вы присоединяетесь к
-                        дружному сообществу,
-                        участники которого участвуют в проекте помощи приютам собак. Холдеры NFT из первой
-                        лимитированной коллекции в будущем получат дроп
-                        одной NFT из следующей
-                        генеративной коллекции и гарантированное место в WL</p>
-                    <div class="header-timer">
-                        <div class="timer d-flex mb-4">
-                            <div class="timer-element me-3 me-sm-4 me-lg-5 d-flex flex-column align-items-center">
+                    <p class="header-description__text">TON Friends - это лимитированная коллекция из 1200 NFT на
+                        блокчейнe TON. Миссия проекта - создать мощное комьюнити, помочь приютам собак и вознаградить
+                        тех, кто им помогает. Холдеры NFT получат дроп NFT из следующей коллекции и еще целый ряд
+                        выгодных бонусов!</p>
+                    <img class="set-pic__mob d-block d-sm-none" src="./img/1-header/set-pic-mob.png" alt="">
+
+                    <div class="header-timer mb-2 mb-sm-3">
+                        <div class="timer d-flex mb-4 mb-lg-5">
+                            <div class="timer-element me-3 me-sm-3 me-lg-4 d-flex flex-column align-items-center">
+                                <div class="timer-number d-flex justify-content-center align-items-center">
+                                    <span>0</span>
+                                    <span>0</span>
+                                </div>
+                                <p class="timer-element__text">дней</p>
+                            </div>
+                            <div class="timer-element me-3 me-sm-3 me-lg-4 d-flex flex-column align-items-center">
                                 <div class="timer-number d-flex justify-content-center align-items-center">
                                     <span>0</span>
                                     <span>0</span>
                                 </div>
                                 <p class="timer-element__text">часов</p>
                             </div>
-                            <div class="timer-element me-3 me-sm-4 me-lg-5 d-flex flex-column align-items-center">
+                            <div class="timer-element me-3 me-sm-3 me-lg-4 d-flex flex-column align-items-center">
                                 <div class="timer-number d-flex justify-content-center align-items-center">
                                     <span>0</span>
                                     <span>0</span>
                                 </div>
                                 <p class="timer-element__text">минут</p>
                             </div>
-                            <div class="timer-element me-2 me-sm-4 me-lg-5 d-flex flex-column align-items-center">
+                            <div class="timer-element me-2 me-sm-3 me-lg-4 d-flex flex-column align-items-center">
                                 <div class="timer-number d-flex justify-content-center align-items-center">
                                     <span>0</span>
                                     <span>0</span>
@@ -96,7 +120,7 @@
 
                     <div class="header-link d-flex flex-column flex-lg-row">
                         <a href="#"
-                            class="link-social link-social-telegram mb-3 mb-lg-0 me-0 me-lg-3 position-relative text-end">Подписаться
+                            class="link-social link-social-telegram mb-1 mb-lg-0 me-0 me-lg-3 position-relative text-end">Подписаться
                             на Telegram</a>
                         <a href="#" class="link-social link-social-play position-relative text-end">Здесь будет
                             маркетплейс</a>
@@ -113,7 +137,7 @@
         </div>
     </section>
 
-    <section class="auto-scroll">
+    <!-- <section class="auto-scroll">
         <div class="slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -169,47 +193,97 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section id="friends" class="friends">
+        <div class="container">
+            <div class="friends__main">
+                <h2 class="title">В ЧЕМ СИЛА TON FRIENDS?</h2>
+                <div class="friends__card d-flex flex-wrap justify-content-center">
+                    <div class="friends__card-element text-center">
+                        <h3 class="mb-2">БОЛЬШЕ, ЧЕМ<br>ПРОСТО NFT</h3>
+                        <p class="friends__description text-lowercase">АВАТАР ИЗ КОЛЛЕКЦИИ - ЗНАК ПРИНАДЛЕЖНОСТИ К
+                            ЛЮДЯМ, ОБЪЕДИНЕННЫХ ЖЕЛАНИЕМ МЕНЯТЬ МИР К ЛУЧШЕМУ</p>
+                    </div>
+                    <div class="friends__card-element text-center">
+                        <h3 class="mb-2">ДЕЛАЕМ СОБАК <br>СЧАСТЛИВЕЙ</h3>
+                        <p class="friends__description text-lowercase">КОЛЛЕКЦИЯ ПОМОЖЕТ БУЛЬТЕРЬЕРАМ
+                            В ПРИЮТЕ И СДЕЛАЕТ ВКЛАД
+                            В БУДУЩИЙ ПРОЕКТ СИСТЕМНОЙ ПОМОЩИ БЕЗДОМНЫМ СОБАКАМ </p>
+                    </div>
+                    <div class="friends__card-element text-center">
+                        <h3 class="mb-2">ВЫГОДЫ ДЛЯ<br>ХОЛДЕРОВ</h3>
+                        <p class="friends__description text-lowercase">ХОЛДЕРЫ ПОЛУЧАТ ДРОП NFT
+                            ИЗ СЛЕДУЮЩЕЙ КОЛЛЕКЦИИ, ДОСТУП
+                            В TON FRIENDS CLUB, БОНУСЫ
+                            ОТ ПАРТНЕРОВ</p>
+                    </div>
+                    <div class="friends__card-element text-center">
+                        <h3 class="mb-2">ЛИМИТИРОВАННАЯ <br> КОЛЛЕКЦИЯ</h3>
+                        <p class="friends__description text-lowercase">ПРИ ЛИМИТИРОВАННОМ ОБЪЕМЕ 1200 NFT, ЛИКВИДНОСТЬ
+                            КОЛЛЕКЦИИ НА ВТОРИЧНОМ РЫНКЕ ВЫШЕ</p>
+                    </div>
+                    <div class="friends__card-element text-center">
+                        <h3 class="mb-2">БЛОКЧЕЙН <br> TON</h3>
+                        <p class="friends__description text-lowercase">МЫ, КАК TON FRIENDS, НЕ ТОЛЬКО
+                            ДРУЗЬЯ СОБАК, НО И ДРУЗЬЯ TON - ВЕРИМ В БОЛЬШИЕ ПЕРСПЕКТИВЫ
+                            THE OPEN NETWORK</p>
+                    </div>
+                    <div class="friends__card-element text-center">
+                        <h3 class="mb-2">НАЛИЧИЕ <br> ИНФО-ПАРТНЕРОВ</h3>
+                        <p class="friends__description text-lowercase">ПОСТОЯННО РАСШИРЯЕМ СПИСОК ИНФО-ПАРТНЕРОВ И
+                            ИНФЛЮЕНСЕРОВ, РАССКАЗЫВАЯ О ПРОЕКТЕ ЕЩЕ БОЛЬШЕЙ АУДИТОРИИ</p>
+                    </div>
+                    <div class="friends__card-element text-center">
+                        <h3 class="mb-2">ЗАКРЫТЫЙ <br> КЛУБ
+                        </h3>
+                        <p class="friends__description text-lowercase">ХОЛДЕРЫ СТАНОВЯТСЯ ЧЛЕНАМИ
+                            TON FRIENDS CLUB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="bull-terrier">
+    <section id="history" class="bull-terrier">
         <div class="container">
             <div class="paw-block pt-2 pt-sm-0">
+                <h2 class="title">ИСТОРИЯ</h2>
                 <div
-                    class="paw-block-text mb-4 mb-sm-5 d-flex align-items-center flex-column flex-sm-row justify-content-start justify-content-sm-around justify-content-md-between">
-                    <img class="mb-3 mb-sm-0" src="./img/3-bull-terrier/description-1.png" alt="">
-                    <p class="paw-text text-center text-sm-start">«Привет! Стань часть дружного сообщества,
-                        объединенного действительно благородной
-                        целью - помочь приютам собак! У нашей команды большие цели. Первая наша коллекция
-                        будет выпущена лимитированным тиражом
-                        и посвящена буль-терьерам. Почему именно
-                        им? Потому что во-первых,
-                        25% от прибыли с продаж данной коллекции пойдет на целевую
-                        помощь приюту буль-терьеров - соглашение с приютом уже достигнуто. Во-вторых,
-                        в нашей
-                        команде есть буль-терьер Бублик - именно он и вдохновил нас на создание этих классных и
-                        позитивных артов!
+                    class="paw-block-text mb-4 mb-sm-5 d-flex align-items-center flex-column-reverse flex-sm-row justify-content-start justify-content-sm-around justify-content-md-between">
+                    <img class="mt-3 mt-sm-0" src="./img/3-bull-terrier/description-1.png" alt="">
+                    <p class="paw-text text-center text-sm-start">Привет, друг! Стань частью активного сообщества,
+                        объединенного действительно благородной целью - помочь приютам собак! У нашей команды большие
+                        цели! Первая NFT-коллекция, посвященная бультерьерам, будет выпущена лимитированным тиражом в
+                        1200 аватаров, 79 из которых будут оригинальными, созданными вручную и 1121 - генерацией на
+                        основе еще 8 разных персонажей с тематическими атрибутами. 25% от прибыли с продаж данной
+                        коллекции пойдет на помощь приюту собак. После публичного релиза, мы будем уменьшать количество
+                        NFT на маркеплейсе каждую неделю - для повышения ликвидности.Вы спросите, почему именно
+                        бультерьеры? Во-первых, некоторые люди эту породу незаслуженно воспринимают злой, а ведь, при
+                        правильном воспитании, бультерьеры милые и добрые!
                     </p>
                 </div>
                 <div
-                    class="paw-block-text d-flex align-items-center justify-content-start justify-content-sm-around justify-content-md-between flex-column flex-sm-row-reverse">
-                    <img class="mb-4 mb-sm-0" src="./img/3-bull-terrier/description-2.png" alt="">
-                    <p class="paw-text text-center text-sm-start">Тот, кому посчастливиться стать обладателем NFT и
-                        сохранить его, не только поможет
-                        приюту и сделает доброе дело, но и в благодарность от команды проекта получит дроп
-                        одной NFT из второй генеративной коллекции!Средства со второй коллекции смогут помочь уже
-                        нескольким приютам. При успешной
-                        реализации второй коллекции, мы запустим третью коллекцию и средства с ее продажи не
-                        только сделают счастливее многих собак в приютах, но и позволят создать Move2Earn приложение с
-                        выгулом виртуальных питомцев и вознаграждением их хозяев. Приложение
-                        уже сможет на постоянной основе оказывать помощь приютам.
+                    class="paw-block-text d-flex align-items-center justify-content-start justify-content-sm-around justify-content-md-between flex-column-reverse flex-sm-row-reverse">
+                    <img class="mt-3 mt-sm-0" src="./img/3-bull-terrier/description-2.png" alt="">
+                    <p class="paw-text text-center text-sm-start">Во-вторых, в нашей команде есть самый настоящий
+                        бультерьер Бублик - именно он и желание помочь другим собакам вдохновили нас на создание этой
+                        коллекции.Стать владельцем NFT TON Friends, это не только благородно - ведь вы помогаете приюту,
+                        но и выгодно! Холдеры получат дроп одной NFT из второй генеративной коллекции Средства со второй
+                        коллекции помогут уже нескольким приютам. При успешной же реализации второй коллекции, мы
+                        запустим третью коллекцию и средства с ее продажи не только сделают счастливее многих собак в
+                        приютах, но и позволят создать игру с выгулом виртуальных питомцев и вознаграждением их хозяев.
+                        Приложение уже сможет на постоянной основе оказывать помощь приютам! Как и написали выше, у нас
+                        большие цели! Присоединяйтесь и становитесь участником TON Friends Club!
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="buy">
+    <section id="collection" class="buy">
         <div class="container">
+            <h3 class="title">КоЛЛЕКЦИЯ</h3>
             <div class="buy__main d-flex flex-column align-items-center">
                 <img class="d-none d-md-block" src="./img/4-buy/buy-img.png" alt="">
                 <div class="buy__line w-100 d-flex justify-content-between d-md-none">
@@ -225,33 +299,34 @@
         </div>
     </section>
 
-    <section class="bonus">
+    <section id="bonus" class="bonus">
         <div class="container">
             <div class="bonus__main">
-                <h1 class="bonus__title">Utility</h1>
+                <h1 class="title">ЦЕННОСТЬ NFT</h1>
                 <h5 class="bonus__subtitle">Обладатели NFT получат:</h5>
 
                 <div class="bonus__list d-flex flex-column flex-md-row justify-content-between align-items-center">
 
                     <div class="bonus__item mb-5 mb-md-0 d-flex flex-column align-items-center">
                         <img class="mb-3" src="./img/5-bonus/b-1.jpg" alt="">
-                        <p class="bonus__item--description">Drop одной NFT из 2-ой <br> генеративной коллекции</p>
-                    </div>
-
-                    <img class="bonus__step d-none d-md-block" src="./img/5-bonus/b-step.png" alt="">
-
-                    <div class="bonus__item mb-5 mb-md-0 d-flex flex-column align-items-center">
-                        <img class="mb-3" src="./img/5-bonus/b-2.png" alt="">
-                        <p class="bonus__item--description">White list на 3-ю <br> генеративную коллекцию
+                        <p class="bonus__item--description">Шанс получить одну из 40 <br> редких NFT и выиграть<br>
+                            до 300 TON
                         </p>
                     </div>
 
-                    <img class="bonus__step d-none d-md-block" src="./img/5-bonus/b-step.png" alt="">
+                    <img class="bonus__step" src="./img/5-bonus/b-step.png" alt="">
+
+                    <div class="bonus__item mb-5 mb-md-0 d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-bonus/b-2.png" alt="">
+                        <p class="bonus__item--description">Drop одной NFT <br> из 2-ой генеративной <br> коллекции</p>
+                    </div>
+                    <img class="bonus__step" src="./img/5-bonus/b-step.png" alt="">
 
 
                     <div class="bonus__item mb-5 mb-md-0 d-flex flex-column align-items-center">
                         <img class="mb-3" src="./img/5-bonus/b-3.png" alt="">
-                        <p class="bonus__item--description">Доступ в закрытый чат <br> сообщества, объединеных</p>
+                        <p class="bonus__item--description">Доступ в закрытый клуб. <br> Получение бонусов от <br>
+                            Партнеров и проекта</p>
                     </div>
 
                 </div>
@@ -259,70 +334,93 @@
         </div>
     </section>
 
-    <section class="map">
+    <section id="map" class="map">
         <div class="container">
             <div class="map__main">
-                <h2 class="map__title mb-5 pb-0 pb-md-5 text-center">Дорожная карта</h2>
+                <h2 class="title mb-5 pb-0 pb-md-5 text-center">Дорожная карта</h2>
 
-                <div class="map__list flex-column flex-md-row d-flex justify-content-between position-relative">
+                <div class="map__list d-flex flex-column flex-md-row justify-content-between position-relative">
                     <div class="map__element">
-                        <p class="pam__plate">Помогаем конкретному<br>
-                            приюту собак </p>
-                        <ul class="map__element-1 map__element--text text-center d-flex flex-column align-items-center">
-                            <li>формирование команды и разработка концепции
-                                NFT-коллекции</li>
-                            <li>создание лимитированной NFT коллекции из 444 артов</li>
-                            <li>договоренность с приютом</li>
-                            <li>создание канала в Telegram </li>
-                            <li>разработка и запуск сайта</li>
-                            <li>создание Twitter</li>
-                            <li>достижение договоренности с маркет-плейсом</li>
-                            <li>старт рекламной кампании</li>
-                            <li>пресейл</li>
-                            <li>минт</li>
-                            <li>поддержка вторичного рынка</li>
+                        <div class="pam__plate">
+                            <h4 class="pam__plate--title pam__plate--title-green">3Q 2022</h4>
+                            <p>Помогаем конкретному<br>
+                                приюту собак </p>
+                        </div>
+                        <ul
+                            class="map__element-block text-start d-flex align-items-center align-items-md-end flex-column">
+                            <li class="m-step-g">Формирование команды
+                                проекта и разработка концепции</li>
+                            <li class="m-step-g">Договоренность с приютом бультерьеров</li>
+                            <li class="m-step-g">Создание лимитированной NFT-коллекции из 1200 аватаров</li>
+                            <li class="m-step-g">Привлечение Партнеров проекта</li>
+                            <li class="m-step-g">Запуск Telegram-канала</li>
+                            <li>Запуск сайта проекта</li>
+                            <li>Запуск Twitter на английском языке</li>
+                            <li>Достижение договоренности
+                                с маркетплейсами TON</li>
+                            <li>Привлечение инфо-партнеров</li>
+                            <li>Старт маркетинговой кампании </li>
+                            <li>AirDrop для комьюнити</li>
+                            <li>Пресейл NFT</li>
+                            <li>Создание закрытого клуба для холдеров</li>
+                            <li>Публичный релиз коллекции</li>
                         </ul>
-                        <img class="d-block d-md-none mx-auto" src="./img/8-map/m-1-mob.png" alt="">
                     </div>
 
                     <div class="map__element">
-                        <p class="pam__plate">Помогаем нескольким <br>
-                            приютам</p>
-                        <ul class="map__element-2 map__element--text text-center d-flex flex-column align-items-center">
-                            <li>создание второй
-                                коллекции из 4444 NFT</li>
-                            <li>дроп одной NFT холдерам первой коллекции
+                        <div class="pam__plate">
+                            <h4 class="pam__plate--title">4Q 2022</h4>
+                            <p>Помогаем нескольким <br>
+                                приютам</p>
+                        </div>
+                        <ul
+                            class="map__element-block text-start  d-flex align-items-center align-items-md-end flex-column">
+                            <li>Проведение голосования в комьюнити - какие породы собак войдут в коллекцию</li>
+                            <li>Создание второй
+                                NFT-коллекции из 4444 аватаров разных собак
                             </li>
-                            <li> включение холдеров первой коллекции
-                                в White List</li>
+                            <li>Формирование списка приютов</li>
+                            <li>Расширение списка Партнеров проекта</li>
+                            <li>Дроп одной NFT холдерам первой коллекции</li>
+                            <li>Закрытый пресейл для холдеров первой коллекции</li>
+                            <li>Старт маркетинговой кампании</li>
+                            <li>Второй пресейл NFT</li>
+                            <li>Публичный релиз второй коллекции</li>
                         </ul>
-                        <img class="d-block d-md-none mx-auto" src="./img/8-map/m-2-mob.png" alt="">
                     </div>
 
                     <div class="map__element">
-                        <p class="pam__plate">Помогаем нескольким <br>
-                            приютам</p>
-                        <ul class="map__element-3 map__element--text text-center d-flex flex-column align-items-center">
+                        <div class="pam__plate">
+                            <h4 class="pam__plate--title">2023</h4>
+                            <p>Организуем систематическую <br> помощь приютам</p>
+                        </div>
+                        <ul
+                            class="map__element-block text-start  d-flex align-items-center align-items-md-end flex-column">
                             <li>создание третьей коллекции из 8888 NFT</li>
-                            <li>включение холдеров первой коллекции в White List</li>
-                            <li>дроп одной NFT холдерам первой коллекции и дроп одной NFT холдерам второй коллекции</li>
-                            <li>проработка запуска Move2Earn приложения, в котором NFT из третьей коллекции будут
-                                позволять начать пользоваться приложением</li>
+                            <li>Включение холдеров первой коллекции и второй
+                                в WL первого пресейла</li>
+                            <li>Разработка игры, которая позволит наладить регулярную помощь приютам и бонусы холдерам
+                            </li>
+                            <li>Старт маркетинговой кампании </li>
+                            <li>Второй пресейл NFT</li>
+                            <li>Публичный релиз третьей коллекции</li>
+                            <li>Продолжение следует</li>
                         </ul>
-                        <img class="d-block d-md-none mx-auto mb-0" src="./img/8-map/m-3-mob.png" alt="">
                     </div>
 
-                    <img class="map-frpoup position-absolute d-none d-lg-block" src="./img/8-map/group-desctop.png"
+                    <img class="map-frpoup position-absolute d-none d-md-block" src="./img/8-map/group-desctop.png"
                         alt="">
+
+                    <img class="mobile-dog d-block d-md-none mx-auto" src="./img/8-map/group-desctop.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="economy">
+    <section id="economy" class="economy">
         <div class="container">
             <div class="economy__main">
-                <h4 class="economy__title">Экономика</h4>
+                <h4 class="title">Экономика</h4>
 
                 <div class="economy__diagram d-flex justify-content-center position-relative">
                     <img src="./img/7-economy/sphere.png" alt="">
@@ -337,40 +435,44 @@
         </div>
     </section>
 
-    <section class="team">
+    <section id="team" class="team">
         <div class="container">
             <div class="team__main">
-                <h4 class="bonus__title mb-5 pb-0 pb-md-5">Команда</h4>
-                <div class="team__list mb-5 d-flex justify-content-between flex-wrap flex-md-row">
+                <h4 class="title mb-5 pb-0 pb-md-5">Команда</h4>
+                <div class="team__list mb-0 mb-md-5 d-flex justify-content-between flex-wrap flex-md-row">
                     <div class="team__card">
                         <img class="mb-2" src="./img/6-team/1.png" alt="">
-                        <p class="team__card--description">Olga<br><span>Design 1</span></p>
+                        <p class="team__card--description">Ilya<br><span>Co-Founder, CEO</span></p>
                     </div>
                     <div class="team__card">
                         <img class="mb-2" src="./img/6-team/2.png" alt="">
-                        <p class="team__card--description">Anastasia<br><span>Design 2</span></p>
+                        <p class="team__card--description">Sergey<br><span>Co-Founder</span></p>
                     </div>
                     <div class="team__card">
                         <img class="mb-2" src="./img/6-team/3.png" alt="">
-                        <p class="team__card--description">Ilya<br><span>Founder</span></p>
+                        <p class="team__card--description">Ramin<br><span>Head of Project</span></p>
                     </div>
                     <div class="team__card">
                         <img class="mb-2" src="./img/6-team/4.png" alt="">
-                        <p class="team__card--description">Sergey<br><span>Co founder</span></p>
+                        <p class="team__card--description">Oleg<br><span>CMO</span></p>
                     </div>
                 </div>
-                <div class="team__list d-flex justify-content-center flex-wrap flex-md-row">
-                    <div class="team__card me-3">
+                <div class="team__list d-flex justify-content-between flex-wrap flex-md-row">
+                    <div class="team__card">
                         <img class="mb-2" src="./img/6-team/5.png" alt="">
-                        <p class="team__card--description">Ramin<br><span>Head of Project</span></p>
+                        <p class="team__card--description">Anastsia<br><span>Project manager</span></p>
                     </div>
-                    <div class="team__card me-3">
+                    <div class="team__card">
                         <img class="mb-2" src="./img/6-team/6.png" alt="">
-                        <p class="team__card--description">Anastasia<br><span>Manager of Project</span></p>
+                        <p class="team__card--description">Olga<br><span>Designer</span></p>
                     </div>
                     <div class="team__card">
                         <img class="mb-2" src="./img/6-team/7.png" alt="">
-                        <p class="team__card--description">Oleg007<br><span>Head of marketing </span></p>
+                        <p class="team__card--description">Anastasia<br><span>Designer</span></p>
+                    </div>
+                    <div class="team__card">
+                        <img class="mb-2" src="./img/6-team/8.png" alt="">
+                        <p class="team__card--description">ALDES NFT<br><span>Community grow & paid ad</span></p>
                     </div>
                 </div>
             </div>
@@ -378,14 +480,22 @@
     </section>
 
     <footer class="footer mb-4 mb-md-5 pb-0 pb-md-4">
-        <div class="container">
-            <div
-                class="footer__main d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-center">
-                <a href="#"
-                    class="link-social link-social-telegram mb-3 mb-md-0 me-0 me-md-3 position-relative text-end">Подписаться
-                    на Telegram</a>
-                <a href="#" class="link-social link-social-play position-relative text-end">Здесь будет
-                    маркетплейс</a>
+        <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center">
+            <div class="footer__title mb-4 mb-sm-0 d-flex flex-column flex-xl-row align-items-center">
+                <h2 class="title mb-0 me-0 me-xl-5">BASED ON</h2>
+                <div class="footer__diamind d-flex align-items-center">
+                    <img src="./img/9-footer/diamond.png" alt="">
+                    <h4 class="diamond__title ms-3">TON</h4>
+                </div>
+            </div>
+            <div class="footer__main">
+                <div class="footer__btn d-flex flex-column flex-lg-row">
+                    <a href="#"
+                        class="link-social link-social-telegram footer__link mb-3 mb-lg-0 me-0 me-lg-3 position-relative text-end">Подписаться
+                        на Telegram</a>
+                    <a href="#" class="link-social link-social-play footer__link position-relative text-end">Здесь будет
+                        маркетплейс</a>
+                </div>
             </div>
         </div>
     </footer>
